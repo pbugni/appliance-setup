@@ -6,8 +6,8 @@ Quick Start
 
 1.  Boot [TurnKey Core 12](http://www.turnkeylinux.org/core)
 
-[Suggested route using VMDK VirtualBox follows.  Continue on step 2 using
-alternate VM hosting solution.]
+    [Suggested route using VMDK in VirtualBox follows.  Continue on step
+    2 using alternate VM hosting solution.]
 
     A. Create home for virtual hard disk on host and download image
 
