@@ -1,0 +1,7 @@
+classes: []
+tomcat::create_legacy_symlinks: true
+tomcat::disable_authentication: true
+tomcat::enable_ajp: true
+# Add Tomcat Java options recommended by OpenMRS
+# https://wiki.openmrs.org/display/docs/Troubleshooting+Memory+Errors
+tomcat::java_opts_extra: '-Xmx512m -Xms512m -XX:PermSize=256m -XX:MaxPermSize=256m -XX:NewSize=128m'
