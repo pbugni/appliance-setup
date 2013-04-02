@@ -1,0 +1,3 @@
+itech ALL=(root)NOPASSWD:/etc/init.d/tomcat6
+itech ALL=(postgres)NOPASSWD:/usr/bin/createdb,/usr/bin/dropdb,/usr/bin/pg_dump
+itech ALL=(root)NOPASSWD:/usr/bin/python setup_OpenELIS.py
