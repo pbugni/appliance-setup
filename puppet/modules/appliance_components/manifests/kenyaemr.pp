@@ -5,12 +5,12 @@
 #
 # Requires:
 #
-#  appliance_components::apache
+#  appliance_components::ajp
 #  appliance_components::mysql
 #  appliance_components::tomcat
 #
 class appliance_components::kenyaemr {
-  include appliance_components::apache
+  include appliance_components::ajp
   include appliance_components::mysql
   include appliance_components::tomcat
 
